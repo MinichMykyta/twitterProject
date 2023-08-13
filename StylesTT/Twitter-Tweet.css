@@ -1,0 +1,101 @@
+.tweet-flexbox {
+    margin: -5px 0 0 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.tweet {
+    display: flex;
+    width: 593px;
+    background: white;
+    margin: 0 0 0 1px;
+    border: solid 1px #f1f1f1;
+    padding: 0 0 7px 0;
+    transition: 0.4s;
+}
+
+.tweet:hover {
+    background-color: #f1f1f1;
+}
+
+.twitter-username {
+    margin-top: 10px;
+    font-weight: 500;
+    display: inline-block;
+    color: black;
+}
+
+.twitter-user {
+    width: 50px;
+}
+
+.twitter-user-picture {
+    display: inline-block;
+    border-radius: 50px;
+    cursor: pointer;
+    vertical-align: sub;
+    padding: 10px 10px 0 10px;
+}
+
+.tweet-content {
+    display: inline-block;
+}
+
+.twitter-confirmation {
+    width: 24px;
+    margin-bottom: -5px;
+    margin-left: -3px;
+}
+
+.tweet-date {
+    color: grey;
+    display: inline-block;
+}
+
+.tweet-text-container {
+    display: inline-block;
+    width: 500px;
+}
+
+.tweet-text {
+    font-weight: 400;
+    padding: 3px 0 5px 0;
+    color: #0f1419;
+}
+
+.tt-buttons-container {
+    width: 425px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.tt-buttons-ind {
+    display: flex;
+    flex-direction: row;
+}
+
+.tt-buttons {
+    width: 27px;
+    height: 27px;
+    border-radius: 25px;
+}
+
+.button-number {
+    color: #727272;
+    font-size: 13px;
+    margin: 7px 0 0 0;
+    font-weight: 400;
+}
+
+.tweet-buttons {
+    display: block;
+}
+
+.tweet-post-info {
+    display: inline-block;
+}
+
+.tweet-img {
+    width: 100%;
+}
